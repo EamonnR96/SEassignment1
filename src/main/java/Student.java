@@ -29,4 +29,12 @@ public class Student {
         Years agejd = Years.yearsBetween(dOB, currentDate);
         age = agejd.getYears();
     }
+
+    public void addCourse(Programme course){
+        courses.add(course);
+    }
+
+    public void addModule(Module module){
+        modules.add(module);
+    }
 }

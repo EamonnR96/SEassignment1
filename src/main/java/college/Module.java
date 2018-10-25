@@ -20,4 +20,8 @@ public class Module {
     public void addStudent(Student student) {
         students.add(student);
     }
+
+    public String getModulename() {
+        return modulename;
+    }
 }

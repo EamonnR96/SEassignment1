@@ -6,7 +6,7 @@ public class Module {
 
     private String modulename;
     private String moduleID;
-    private ArrayList students;
+    private ArrayList<Student> students;
 
     public Module(String modulename, String moduleID){
         this.modulename = modulename;

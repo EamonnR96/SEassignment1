@@ -31,6 +31,6 @@ public class Programme {
     }
 
     public ArrayList getModules(){
-        return students;
+        return modules;
     }
 }

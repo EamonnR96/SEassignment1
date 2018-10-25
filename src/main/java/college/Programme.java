@@ -7,8 +7,8 @@ import java.util.ArrayList;
 public class Programme {
 
     private String courseName;
-    private ArrayList modules;
-    private ArrayList students;
+    private ArrayList<Module> modules = new ArrayList<Module>();
+    private ArrayList<Student> students = new ArrayList<Student>();
     private LocalDate startDate;
     private  LocalDate endDate;
 

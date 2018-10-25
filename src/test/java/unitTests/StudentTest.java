@@ -1,5 +1,6 @@
 package unitTests;
 
+import college.Module;
 import college.Student;
 import org.joda.time.LocalDate;
 import org.junit.Test;

@@ -11,8 +11,8 @@ public class Student {
     private LocalDate dOB;
     private long iD;
     private String username;
-    private ArrayList courses;
-    private ArrayList modules;
+    private ArrayList<Programme> courses = new ArrayList<Programme>();
+    private ArrayList<Module> modules = new ArrayList<Module>();
 
     public Student(String name, LocalDate dOB, long iD) {
         this.name = name;
